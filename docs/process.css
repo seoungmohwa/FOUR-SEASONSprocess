@@ -1,0 +1,172 @@
+.con {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media (min-width: 1900px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* -------------------main */
+
+.main {
+  position: relative;
+}
+
+.main__bg {
+  background: url(https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/Web_P/P_01bg.png);
+  width: 1920px;
+  height: 1258px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.main__title {
+  position: absolute;
+  top: 230px;
+  left: 170px;
+}
+
+/* ------------------- Project Overview */
+
+.Overview {
+  position: relative;
+}
+
+.overview__bg {
+  background: #fff;
+  width: 1920px;
+  height: 579px;
+}
+
+.overview__title {
+  position: absolute;
+  top: 190px;
+  left: 170px;
+}
+
+.overview__desc_01 {
+  position: absolute;
+  top: 194px;
+  left: 710px;
+}
+
+.overview__desc_02 {
+  position: absolute;
+  top: 315px;
+  left: 710px;
+}
+
+/* -------------------wire-frame */
+
+.wire-frame-bg {
+  background: url(https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/Web_P/webP_03.png);
+  width: 1920px;
+  height: 1329px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+/* -------------------TYPO & COLORS PALETTE */
+
+.TYPO_COLORS {
+  position: relative;
+}
+
+.TYPO_COLORS__bg {
+  background: url(https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/Web_P/webP_04.png);
+  width: 1920px;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.color__card {
+  position: absolute;
+  top: 310px;
+  left: 170px;
+}
+
+.typo__card {
+  position: absolute;
+  top: 505px;
+  left: 997px;
+}
+
+/* -------------------page */
+
+.page {
+  background: url(https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/Web_P/webP_05.png);
+  width: 1920px;
+  height: 5777px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  position: relative;
+}
+
+.main-tilte {
+  position: absolute;
+  top: 412px;
+  left: 170px;
+}
+
+.main-desc {
+  position: absolute;
+  top: 495px;
+  left: 170px;
+}
+
+.sub-tilte {
+  position: absolute;
+  top: 3117px;
+  left: 170px;
+}
+
+.sub-desc {
+  position: absolute;
+  top: 3191px;
+  left: 170px;
+}
+
+/* -------------------page */
+.footer {
+  background: url(https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/Web_P/P_footer_bg.png.png);
+  width: 1920px;
+  height: 303px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  position: relative;
+}
+
+.fooger_title {
+  position: absolute;
+  top: 138px;
+  left: 600px;
+}
+
+/*-----------------------로딩  */
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.loading::after {
+  content: "로딩중..";
+}
